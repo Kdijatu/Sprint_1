@@ -2,3 +2,88 @@ body {
     margin: 0;
     font-size:14;
 }
+
+.headers{
+    border: black solid 10px;
+}
+
+/*hace falta que ponga flex si el header-blue va a estar debajo del header-orange?*/
+
+/*header-1*/
+
+.header-blue{
+    background-color:rgb(43, 58, 105);
+    padding: 15px;
+    border: black solid 5px;
+    display: flex;
+    flex-flow: row;     
+}
+
+.baby-blue{
+    background-color:skyblue;
+    padding: 10px;
+    margin: 10px;
+    flex-grow: 1;
+}
+.center-baby-blue{
+    background-color:skyblue;
+    padding: 0 10px;
+    margin: 10px;
+    flex-grow: 5;
+}
+
+/*header-2*/
+.header-orange {
+    display: flex;
+    border: black solid 5px;
+    background-color:orange;
+    padding: 15px;
+}
+
+.baby-orange {
+    background-color:rgb(214, 192, 93);
+    padding: 10px;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+/*MAIN*/
+
+.family{
+margin:20px 0;
+display:flex;
+}
+
+/*grandma-1*/
+.grandma-grey {
+border: black solid 15px;
+padding:20px 40px 40px 40px;;
+background-color:rgb(77, 75, 75);
+flex-grow: 2;
+}
+
+/*grandma-2*/
+.grandma-red{
+border: black solid 15px;
+border-left: 0;
+padding: 20px 40px 40px 40px;
+background-color:rgb(189, 71, 71);
+flex-grow:1;
+}
+
+.mother{
+    background-color:rgb(230, 210, 100);
+    padding: 10px;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+/*FOOTER*/
+.footer{
+    border: black solid 10px;
+    background-color:saddlebrown;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+
