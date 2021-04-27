@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+}
+
+.headers{
+    border: black solid 10px;
+}
+
+/*header-1*/
+
+.header-blue{
+    background-color:rgb(43, 58, 105);
+    padding: 15px;
+    border: black solid 5px;
+    display: flex;
+    flex-flow: row;     
+}
+
+.baby-blue{
+    background-color:skyblue;
+    padding: 10px;
+    margin: 10px;
+    flex-grow: 1;
+}
+.center-baby-blue{
+    background-color:skyblue;
+    padding: 0 10px;
+    margin: 10px;
+    flex-grow: 5;
+}
+
+/*header-2*/
+.header-orange {
+    display: flex;
+    border: black solid 5px;
+    background-color:rgb(231, 186, 102);
+    padding: 15px;
+}
+
+.baby-orange {
+    background-color:rgb(250, 122, 2);
+    padding: 10px;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+/*MAIN*/
+
+.family{
+    margin:20px 0;
+    display:flex;
+}
+
+/*grandma-1*/
+.grandma-grey {
+    border: black solid 15px;
+    padding:15px;
+    background-color:rgb(77, 75, 75);
+    flex-grow: 2;
+}
+
+.father-1{
+    display:flex;
+    flex-direction: row;
+}
+
+.son-1{
+    flex-grow: 1;
+}
+
+.son-2{
+    flex-grow: 1;
+}
+
+.baby-pink{
+    background-color: rgb(219, 105, 158);
+    padding: 10px;
+    margin: 10px;
+}
+
+.baby-purple{
+    background-color: rgb(197, 69, 197);
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+/*grandma-2*/
+.grandma-red{
+    border: black solid 15px;
+    border-left: 0;
+    padding: 15px;
+    background-color:rgb(189, 71, 71);
+    flex-grow:1;
+}
+
+.mother{
+    background-color:rgb(230, 210, 100);
+    padding: 10px;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+
+/*FOOTER*/
+.footer{
+    border: black solid 10px;
+    background-color:saddlebrown;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+
+@media only screen and (max-width: 786px) {
+    /*For tablets*/
+
+    .family{
+        display:flex;
+        flex-direction: column;
+
+        
+    }
+    .grandma-grey{
+        border: yellow solid 15px;
+    }
+
+    .grandma-red{
+        border: yellow solid 15px;
+        border-top: 0;
+    }
+   
+  }
