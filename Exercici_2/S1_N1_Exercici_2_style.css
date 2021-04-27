@@ -117,9 +117,7 @@ body {
 
     .family{
         display:flex;
-        flex-direction: column;
-
-        
+        flex-direction: column;    
     }
     .grandma-grey{
         border: yellow solid 15px;
@@ -128,6 +126,5 @@ body {
     .grandma-red{
         border: yellow solid 15px;
         border-top: 0;
-    }
-   
-  }
+    }  
+}

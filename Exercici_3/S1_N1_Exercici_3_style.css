@@ -112,15 +112,28 @@ body {
 }
 
 
-@media only screen and (max-width: 786px) {
-    /*For tablets*/
 
-    .family{
-        display:flex;
-        flex-direction: column;
+@media only screen and (max-width: 480px) {
+    /*For phones*/
 
-        
-    }
+   .header-blue{
+       display: flex;
+       flex-direction: column;
+   }
+
+   .baby-blue{
+       flex-grow: 1;
+   }
+
+   .center-baby-blue{
+       flex-grow: 1;
+       padding: 10px;
+   }
+
+   .father-1{
+    display: flex;
+    flex-direction: column;
+}
     .grandma-grey{
         border: yellow solid 15px;
     }
@@ -129,5 +142,21 @@ body {
         border: yellow solid 15px;
         border-top: 0;
     }
-   
-  }
+}
+
+@media only screen and (max-width: 786px) {
+    /*For tablets*/
+
+    .family{
+        display:flex;
+        flex-direction: column;    
+    }
+    .grandma-grey{
+        border: yellow solid 15px;
+    }
+
+    .grandma-red{
+        border: yellow solid 15px;
+        border-top: 0;
+    }  
+}
