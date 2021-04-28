@@ -1,7 +1,11 @@
 body {
+    margin: 0;
+}
+
+/**main{
     width: 1200px;
     margin: auto;
-}
+}**/
 
 .headers{
     border: black solid 10px;
@@ -116,9 +120,13 @@ body {
 @media only screen and (max-width: 786px) {
     /*For tablets*/
 
+    main{
+        width: 100%;
+    }
+
     .family{
         display:flex;
-        flex-direction: column;    
+        flex-direction: column;
     }
     .grandma-grey{
         border: yellow solid 15px;

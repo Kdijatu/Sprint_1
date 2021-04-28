@@ -117,6 +117,10 @@ body {
 @media only screen and (max-width: 480px) {
     /*For phones*/
 
+    body{
+        width: 100%;
+    }
+
    .header-blue{
        display: flex;
        flex-direction: column;
@@ -147,6 +151,10 @@ body {
 
 @media only screen and (max-width: 786px) {
     /*For tablets*/
+
+    body{
+        width: 100%;
+    }
 
     .family{
         display:flex;
