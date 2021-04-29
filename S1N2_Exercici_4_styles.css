@@ -1,17 +1,12 @@
-/** 
-##Les opcions cliclables han de tenir efecte roll-over 
-##El text "Disfruta..." és semitransparent.
-
-**/
-
 body {
     margin: 0;
+    font-family: 'Noto Serif', serif;
 }
 
 main{
     width: 1200px;
     margin: auto;
-}
+} 
 
 .responsive{
     width: 100%;
@@ -29,29 +24,29 @@ main{
 
 .logo{
     background-color:white;
-    padding: 10px;
-    margin: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
     flex-grow: 1;
 }
 
 .menu{
     background-color: white;
-    padding: 50px 10px;
+    padding: 50px 10px 0 0;
     display:flex;
     flex-direction: row;
     flex-grow: 5;
 }
 
-a:hover{
-    color: #f25d4c; 
-}
-
+/* iconos del menu ***************************************************/
 
 .icon{
     display:flex;
     flex-direction: row;
 }
 
+a:hover{
+    color: #f25d4c; 
+}
 
 .menu-images{
     height: 32px;
@@ -88,15 +83,50 @@ a:hover{
 }
 
 
+.vuelos {
+    background-image: url(images/m-plane-faded.png);
+}
 
+.vuelos:hover{
+    background-image: url(images/m-plane.png);
+}
+
+
+.contacto {
+    background-image: url(images/m-envelope-faded.png);
+}
+
+.contacto:hover{
+    background-image: url(images/m-envelope.png);
+}
+
+
+/* SOCIAL MEDIA ********************************************/
 .social-media{
     background-color:white;
-    padding: 10px;
-    margin: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
     flex-grow: 2;
     display: flex;
     flex-direction: column;
     align-content: center;
+}
+
+.facebook {
+    background-image: url(images/sm-facebook-faded.png);
+}
+
+.facebook:hover{
+    background-image: url(images/sm-facebook.png);
+}
+
+
+.twitter {
+    background-image: url(images/sm-twitter-faded.png);
+}
+
+.twitter:hover{
+    background-image: url(images/sm-twitter.png);
 }
 
 /*HEADER-2****************************************************/
@@ -109,13 +139,14 @@ a:hover{
 
 .slogan {
     background-color:rgb(207, 198, 198);
-    opacity: 0.7;
-    padding: 0 150px;
-    font-size: 40px;
-    color: #f25d4c;
+    opacity: 0.4;
+    padding: 0 140px;
     position: absolute; 
     left: 55px;
     bottom:20px;  
+    font-family:'Noto Serif', serif;
+    font-size: 35px;
+    color: #f71b02;
 }
 
 
@@ -130,7 +161,7 @@ a:hover{
 /*CHERRY BLOOSOM ******************************************/
 .grandma-grey {
     border: rgb(209, 209, 209) solid 5px;
-    padding:15px;
+    padding:5px;
     background-color:white;
     flex-grow: 1;
     width: 100%;
@@ -140,7 +171,7 @@ a:hover{
 /*SUSNET **************************************************/
 .grandma-red{
     border: rgb(209, 209, 209) solid 5px;
-    padding: 15px;
+    padding: 5px;
     background-color:white;
     flex-grow:1;
     width: 100%;
@@ -148,10 +179,9 @@ a:hover{
 
 
 
-
+/*For phones****************************************/
 @media only screen and (max-width: 480px) {
-    /*For phones*/
-
+    
     main{
         width: 100%;
     }
@@ -168,58 +198,59 @@ a:hover{
    .menu{
        flex-grow: 1;
        padding: 10px;
+       flex-wrap: wrap;
    }
 
    .social-media{
     flex-grow: 1;
+    flex-direction: row;
+    } 
+
+   .slogan {
+        padding: 0 10px;
+        font-size: 0.4em;
+        left: 20px;
+        bottom:15px;  
     } 
 
     .grandma-grey{
         border: #f25d4c solid 5px;
+        width: 100%;
     }
 
     .grandma-red{
         border: #f25d4c solid 5px;
         border-top: 0;
+        width: 100%;
     }
 }
 
-
+/*For tablets********************************************/
 @media only screen and (max-width: 786px) {
-    /*For tablets*/
+    
 
     main{
         width: 100%;
     }
 
-    .header-blue{
-        display: flex;
-        flex-direction: column;
+    .slogan {
+        padding: 0 70px;
+        font-size: 0.9em;
+        left: 75px;
+        bottom:40px;
     }
-
-    .logo{
-        flex-grow: 1;
-    } 
- 
-    .menu{
-        flex-grow: 1;
-        padding: 10px;
-    }
- 
-    .social-media{
-     flex-grow: 1;
-    } 
-
     .family{
         display:flex;
         flex-direction: column;    
     }
     .grandma-grey{
         border: #f25d4c solid 5px;
+        width: 100%;
     }
 
     .grandma-red{
         border: #f25d4c solid 5px;
         border-top: 0;
+        width: 100%;
     }  
 }
