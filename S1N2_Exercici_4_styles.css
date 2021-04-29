@@ -131,19 +131,19 @@ a:hover{
 
 /*HEADER-2****************************************************/
 .header-temple {
-    display: flex;
     background-color: white;
-    padding: 15px;
+    display: flex;
     position: relative;
+    align-items: center;
+    justify-content: center;
 }
 
 .slogan {
+    text-align: center;
+    width: 95%;
+    position: absolute;
     background-color:rgb(207, 198, 198);
     opacity: 0.4;
-    padding: 0 140px;
-    position: absolute; 
-    left: 55px;
-    bottom:20px;  
     font-family:'Noto Serif', serif;
     font-size: 35px;
     color: #f71b02;
@@ -189,6 +189,7 @@ a:hover{
    .header-blue{
        display: flex;
        flex-direction: column;
+       align-items: center;
    }
 
    .logo{
@@ -197,8 +198,8 @@ a:hover{
 
    .menu{
        flex-grow: 1;
+       flex-direction: column;
        padding: 10px;
-       flex-wrap: wrap;
    }
 
    .social-media{
@@ -207,10 +208,7 @@ a:hover{
     } 
 
    .slogan {
-        padding: 0 10px;
         font-size: 0.4em;
-        left: 20px;
-        bottom:15px;  
     } 
 
     .grandma-grey{
@@ -234,10 +232,7 @@ a:hover{
     }
 
     .slogan {
-        padding: 0 70px;
         font-size: 0.9em;
-        left: 75px;
-        bottom:40px;
     }
     .family{
         display:flex;
