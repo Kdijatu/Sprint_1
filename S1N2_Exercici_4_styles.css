@@ -19,7 +19,7 @@ main{
 }
 
 
-/*header-1*/
+/* HEADER-1 ***************************************************/
 
 .header-blue{
     background-color:white;
@@ -42,17 +42,53 @@ main{
     flex-grow: 5;
 }
 
+a:hover{
+    color: #f25d4c; 
+}
+
+
 .icon{
     display:flex;
     flex-direction: row;
 }
 
+
 .menu-images{
     height: 32px;
     width: 32px;
-    margin: 10px;
-    margin-left: 20px;
+    margin: 10px 10px 10px 20px;
+    display: block;
 }
+
+
+.inicio {
+    background-image: url(images/m-caravan-faded.png);
+}
+
+.inicio:hover{
+    background-image: url(images/m-caravan.png);
+}
+
+
+.route {
+    background-image: url(images/m-route-faded.png);
+}
+
+.route:hover{
+    background-image: url(images/m-route.png);
+}
+
+
+.hoteles {
+    background-image: url(images/m-hotel-bell-faded.png);
+}
+
+.hoteles:hover{
+    background-image: url(images/m-hotel-bell.png);
+}
+
+
+
 .social-media{
     background-color:white;
     padding: 10px;
@@ -63,7 +99,7 @@ main{
     align-content: center;
 }
 
-/*header-2*/
+/*HEADER-2****************************************************/
 .header-temple {
     display: flex;
     background-color: white;
@@ -84,14 +120,14 @@ main{
 
 
 
-/*MAIN*/
+/*MAIN****************************************************/
 
 .family{
     margin:20px 0;
     display:flex;
 }
 
-/*grandma-1*/
+/*CHERRY BLOOSOM ******************************************/
 .grandma-grey {
     border: rgb(209, 209, 209) solid 5px;
     padding:15px;
@@ -101,7 +137,7 @@ main{
 }
 
 
-/*grandma-2*/
+/*SUSNET **************************************************/
 .grandma-red{
     border: rgb(209, 209, 209) solid 5px;
     padding: 15px;
